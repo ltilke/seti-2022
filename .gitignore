@@ -1,4 +1,6 @@
-venv/
 eleanor/
+mastDownload/
+venv/
+.idea/
 maxsector.py
 .DS_Store
