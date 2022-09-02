@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 def get_data():
-    data = pd.read_csv('sector6/rf_dip_candidates.csv')
+    data = pd.read_csv('candidates.csv')
     data = data.rename(columns={data.columns[0]: 'tic'})
     data['sec'] = 6
     confidence_mask = data['dip_confidence'] >= 1.0
